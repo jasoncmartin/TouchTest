@@ -51,6 +51,7 @@
 {
 	// Ensure we receive multiple touch events.
 	self.multipleTouchEnabled = YES;
+	self.exclusiveTouch = YES; // This helps avoid any orphan touches being left behind during rapid input.
 	
 	// Array of views to display the touches.
 	touchViews = [[NSMutableArray arrayWithCapacity:0] retain];
@@ -117,7 +118,7 @@
 	[img drawAtPoint:pt blendMode:kCGBlendModeNormal alpha:0.5];
 	
 	// Draw axial markers.
-	float width = 3.0;
+	float width = 3.0; // width of the axial lines.
 	CGPoint center;
 	CGRect axis;
 	for (MGTouchView *view in touchViews) {
@@ -131,7 +132,7 @@
 	
 	// Draw number of touches.
 	[[UIColor whiteColor] set];
-	pt = CGPointMake(5, 5);
+	pt = CGPointMake(5, 5); // inset from top-left corner.
 	int numViews = [touchViews count];
 	NSString *label = [NSString stringWithFormat:@"%d %@", numViews, ((numViews == 1) ? @"touch" : @"touches")];
 	[label drawAtPoint:pt withFont:[UIFont boldSystemFontOfSize:20.0]];
@@ -149,7 +150,7 @@
 	// Create new MGTouchView(s) at appropriate coordinates, and begin tracking them.
 	for (UITouch *touch in touches) {
 		// Create view for this touch.
-		float viewWidth = 120.0;
+		float viewWidth = 120.0; // reasonable size so that the outer ring is visible around fingertips.
 		MGTouchView *view = [[MGTouchView alloc] initWithFrame:CGRectMake(0, 0, viewWidth, viewWidth)];
 		view.center = [touch locationInView:self];
 		view.color = [self nextColor];
@@ -160,15 +161,15 @@
 		CALayer *layer = view.layer;
 		layer.opacity = 0.0;
 		[self addSubview:view];
-		layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5);
+		layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5); // "zoom up" by scaling from 50% to 100%.
 		[UIView beginAnimations:MG_ANIMATION_APPEAR context:view];
 		[UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
 		[UIView setAnimationDelegate:self];
 		layer.opacity = 1.0;
-		layer.transform = CATransform3DIdentity;
+		layer.transform = CATransform3DIdentity; // the Identity transform matrix will return us to 100%, of course.
 		[UIView commitAnimations];
 		
-		// Add view to the map for this touch.
+		// Add view to the map for this touch. Yes, we use the touch event as the key in our dictionary.
 		CFDictionarySetValue(touchMap, touch , view);
 	}
 	
@@ -188,6 +189,7 @@
 	// Update relevant MGTouchViews and status display.
 	for (UITouch *touch in touches) {
 		// Obtain view corresponding to this touch event.
+		// This works because each event in a chain of corresponding touches is at the same address in memory. Very useful.
 		UIView *view = (UIView*)CFDictionaryGetValue(touchMap, touch);
 		if (view) {
 			// Update center to track the change to the touch.
@@ -237,10 +239,10 @@
 			[UIView setAnimationDelegate:self];
 			CALayer *layer = view.layer;
 			layer.opacity = 0.0;
-			layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5);
+			layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5); // Now we zoom down/out by scaling to 50%.
 			[UIView commitAnimations];
 		
-			// Remove view from the map immediately.
+			// Remove view from the map immediately. The animationDidStop:... method will remove the view itself.
 			CFDictionaryRemoveValue(touchMap, touch);
 		}
 
@@ -256,12 +258,9 @@
 
 - (IBAction)clearAllTouches:(id)sender
 {
-	NSArray *views = [NSArray arrayWithArray:touchViews];
-	for (MGTouchView *view in views) {
-		[touchViews removeObject:view];
-		[view removeFromSuperview];
-	}
-	[self setNeedsDisplay];
+	NSArray *touchesArray = [(NSMutableDictionary *)touchMap allKeys];
+	NSSet *touches = [NSSet setWithArray:touchesArray];
+	[self touchesEnded:touches withEvent:nil];
 }
 
 
@@ -273,11 +272,11 @@
 	MGTouchView *view = context;
 	if (view && [touchViews containsObject:view]) {
 		if ([finished boolValue] && [animationID isEqualToString:MG_ANIMATION_DISAPPEAR]) {
-			// Remove view.
+			// This is a fade-out animation, and it just finished. Remove the view.
 			[touchViews removeObject:view];
 			[view removeFromSuperview];
 			
-			// Clean up orphans.
+			// Clean up orphans, just in case any are hanging around.
 			NSArray *views = [NSArray arrayWithArray:touchViews];
 			for (view in views) {
 				if (view.layer.opacity == 0.0) {
@@ -289,15 +288,16 @@
 			[self setNeedsDisplay];
 			
 		} else if ([animationID isEqualToString:MG_ANIMATION_APPEAR] && MG_ANIMATE_ARROWS) {
+			// This is a fade-in animation, and we now want to activate the SCI-FI SPINNY ARROWS.
 			view.showArrows = YES;
 			CAKeyframeAnimation *rotation = [CAKeyframeAnimation animation];
-			rotation.repeatCount = 1000;
+			rotation.repeatCount = 1000; // "1000 full-circle repetitions ought to be enough for anybody."
 			rotation.values = [NSArray arrayWithObjects:
 							   [NSValue valueWithCATransform3D:CATransform3DMakeRotation(0.0f, 0.0f, 0.0f, 1.0f)],
 							   [NSValue valueWithCATransform3D:CATransform3DMakeRotation(M_PI, 0.0f, 0.0f, 1.0f)],
 							   [NSValue valueWithCATransform3D:CATransform3DMakeRotation(M_PI * 2.0, 0.0f, 0.0f, 1.0f)],
 							   nil];
-			rotation.duration = 1.5;
+			rotation.duration = 1.5; // duration to animate a full revolution of 2*Pi radians.
 			[view.layer addAnimation:rotation forKey:@"transform"];
 		}
 	}

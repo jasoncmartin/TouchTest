@@ -1,576 +1,0 @@
-TTouchTest
-v7
-r0
-t295223836.927891
-cCheck dependencies
-cCpResource build/Debug-iphoneos/TouchTest.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/Info.plist TouchTest-Info.plist
-cCompileXIB /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib
-cCompileXIB /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib
-cCopyPNGFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png instinctivecode_logo.png
-cCpResource build/Debug-iphoneos/TouchTest.app/207.caf 207.caf
-cCpResource build/Debug-iphoneos/TouchTest.app/bridge2.loop.caf bridge2.loop.caf
-cCpResource build/Debug-iphoneos/TouchTest.app/transporter.caf transporter.caf
-cProcessPCH /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/main.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestAppDelegate.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestViewController.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTouchView.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTrackingView.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/SoundEngine.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cLd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest normal armv7
-cGenerateDSYMFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app.dSYM /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest
-cProcessProductPackaging "/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision" /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision
-cTouch /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent
-cCodeSign /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004BB14E5F0000000000000110
-t1269911135
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004B9F103D00000000000000DD
-t1268715581
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004B9F103D00000000000001E5
-t1268715581
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004B9F260C00000000002DE3E0
-t1268721164
-s3007456
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004B9F25DA0000000000000A22
-t1268721114
-s2594
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004B9F258F000000000000F342
-t1268721039
-s62274
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
-c000000004B9F24F80000000000004980
-t1268720888
-s18816
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BA03AC100000000003B4B70
-t1268792001
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F26D2000000000036A650
-t1268721362
-s3581520
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F26B90000000000001355
-t1268721337
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004B9F263300000000000064FD
-t1268721203
-s25853
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004B9F26330000000000001F45
-t1268721203
-s8005
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004B9F263C000000000003ABD0
-t1268721212
-s240592
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004B9F28EE000000000000007D
-t1268721902
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004B9F2A1500000000002215A0
-t1268722197
-s2233760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B9F318D000000000000098F
-t1268724109
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B9F32090000000002703230
-t1268724233
-s40907312
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/mach/mach.h
-c000000004B9F16620000000000001057
-t1268717154
-s4183
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/pthread.h
-c000000004B9F135D00000000000038F0
-t1268716381
-s14576
-
-N/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision
-c000000004BB93D460000000000001CA7
-t1270431046
-s7335
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/207.caf
-c000000004BE74BFF00000000000097BC
-t1273449471
-s38844
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.h
-c000000004BE887FC000000000000011A
-t1273530364
-s282
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m
-c000000004BE887FC0000000000000B4B
-t1273530364
-s2891
-i"MGTouchView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.h
-c000000004BE888E6000000000000014C
-t1273530598
-s332
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m
-c000000004BE88A9100000000000021EF
-t1273531025
-s8687
-i"MGTrackingView.h"
-i"MGTouchView.h"
-i<QuartzCore/QuartzCore.h>
-i"SoundEngine.h"
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp
-c000000004BC3AA3C000000000000D759
-t1271114300
-s55129
-i"SoundEngine.h"
-i<AudioToolbox/AudioToolbox.h>
-i<CoreFoundation/CFURL.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<map>
-i<vector>
-i<pthread.h>
-i<mach/mach.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.h
-c000000004BC3A9950000000000004060
-t1271114133
-s16480
-i<CoreAudio/CoreAudioTypes.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.h
-c000000004BE887FC00000000000001B3
-t1273530364
-s435
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m
-c000000004BE887FC0000000000000274
-t1273530364
-s628
-i"TouchTestAppDelegate.h"
-i"TouchTestViewController.h"
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.h
-c000000004BE887FC00000000000000BC
-t1273530364
-s188
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m
-c000000004BE887FC0000000000000520
-t1273530364
-s1312
-i"TouchTestViewController.h"
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib
-c000000004BE887FC0000000000004D1D
-t1273530364
-s19741
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib
-c000000004BE887FC000000000000557F
-t1273530364
-s21887
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest_Prefix.pch
-c000000004BE887FC00000000000000BB
-t1273530364
-s187
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/bridge2.loop.caf
-c000000004BE74E0100000000000273E6
-t1273449985
-s160742
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-t1273531036
-s510
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app.dSYM
-t1273531036
-s102
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/207.caf
-t1273531032
-s38844
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/Info.plist
-t1273531031
-s897
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/MainWindow.nib
-t1273531032
-s1121
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/PkgInfo
-t1273531031
-s8
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/ResourceRules.plist
-t1273531031
-s485
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest
-t1273531036
-s114668
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTestViewController.nib
-t1273531032
-s1830
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/bridge2.loop.caf
-t1273531032
-s160742
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision
-t1273531036
-s7335
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png
-t1273531032
-s48175
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/transporter.caf
-t1273531032
-s259682
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTouchView.o
-t1273531034
-s18312
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTrackingView.o
-t1273531034
-s39436
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/SoundEngine.o
-t1273531035
-s257196
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTest.LinkFileList
-c000000004BE88A970000000000000365
-t1273531031
-s869
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestAppDelegate.o
-t1273531034
-s43168
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestViewController.o
-t1273531034
-s34160
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/main.o
-t1273531034
-s6452
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent
-t1273531036
-s321
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/instinctivecode_logo.png
-c000000004BE887FC0000000000009952
-t1273530364
-s39250
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m
-c000000004BE887FC0000000000000133
-t1273530364
-s307
-i<UIKit/UIKit.h>
-
-N/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/transporter.caf
-c000000004BE74E73000000000003F662
-t1273450099
-s259682
-
-N/var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch.gch
-t1273531034
-s9421460
-
-N/var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch.gch
-t1273531032
-s1966308
-
-NTouchTest-Info.plist
-c000000004BE887FC0000000000000491
-t1273530364
-s1169
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies295223831#295223831#0(0"0(0#1#0"4300911832#0"0#
-
-CCodeSign /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-s295223836.141293
-e295223836.927839
-r1
-xCodeSign
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-lSLF07#2@43"CodeSign build/Debug-iphoneos/TouchTest.app295223836#295223836#0(0"0(0#0#88"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app4300911832#733"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Stu Helm (V93ND7UEDX)" --resource-rules=/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/ResourceRules.plist --entitlements /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTouchView.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223834.270647
-e295223834.394750
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTouchView.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m295223834#295223834#0(0"0(0#0#75"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m4300911832#1951"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTouchView.m -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTouchView.o0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTrackingView.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223834.336104
-e295223834.535351
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTrackingView.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m295223834#295223834#0(0"0(0#0#78"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m4300911832#1957"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/MGTrackingView.m -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/MGTrackingView.o0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/SoundEngine.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s295223834.394895
-e295223835.224646
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/SoundEngine.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp295223834#295223835#0(0"0(0#0#77"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp4300911832#1964"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/SoundEngine.cpp -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/SoundEngine.o0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestAppDelegate.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223834.122072
-e295223834.270529
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestAppDelegate.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m295223834#295223834#0(0"0(0#0#84"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m4300911832#1969"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestAppDelegate.m -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestAppDelegate.o0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestViewController.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223834.248966
-e295223834.335974
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestViewController.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m295223834#295223834#0(0"0(0#0#87"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m4300911832#1975"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/Classes/TouchTestViewController.m -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTestViewController.o0#
-
-CCompileC build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/main.o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223834.120212
-e295223834.248842
-r1
-xCompileC
-xbuild/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/main.o
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m295223834#295223834#0(0"0(0#0#60"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m4300911832#1929"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -include /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/main.m -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib
-s295223831.940620
-e295223832.354473
-r1
-xCompileXIB
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib295223831#295223832#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#68"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib4300911832#513"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/MainWindow.nib /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/MainWindow.xib0#
-
-CCompileXIB /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib
-s295223831.949894
-e295223832.419279
-r1
-xCompileXIB
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@38"CompileXIB TouchTestViewController.xib295223831#295223832#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib4300911832#539"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTestViewController.nib /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTestViewController.xib0#
-
-CCopyPNGFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png instinctivecode_logo.png
-s295223832.354600
-e295223832.851964
-r1
-xCopyPNGFile
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png
-xinstinctivecode_logo.png
-lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png instinctivecode_logo.png295223832#295223832#0(0"0(0#0#78"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/instinctivecode_logo.png4300911832#635"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/instinctivecode_logo.png /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/instinctivecode_logo.png0#
-
-CCpResource build/Debug-iphoneos/TouchTest.app/207.caf 207.caf
-s295223832.419403
-e295223832.427095
-r1
-xCpResource
-xbuild/Debug-iphoneos/TouchTest.app/207.caf
-x207.caf
-lSLF07#2@12"Copy 207.caf295223832#295223832#0(0"0(0#0#61"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/207.caf4300911832#484"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/207.caf /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-
-CCpResource build/Debug-iphoneos/TouchTest.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s295223831.899319
-e295223831.939050
-r1
-xCpResource
-xbuild/Debug-iphoneos/TouchTest.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist295223831#295223831#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist4300911832#512"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-
-CCpResource build/Debug-iphoneos/TouchTest.app/bridge2.loop.caf bridge2.loop.caf
-s295223832.420307
-e295223832.427958
-r1
-xCpResource
-xbuild/Debug-iphoneos/TouchTest.app/bridge2.loop.caf
-xbridge2.loop.caf
-lSLF07#2@21"Copy bridge2.loop.caf295223832#295223832#0(0"0(0#0#70"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/bridge2.loop.caf4300911832#493"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/bridge2.loop.caf /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-
-CCpResource build/Debug-iphoneos/TouchTest.app/transporter.caf transporter.caf
-s295223832.421074
-e295223832.432421
-r1
-xCpResource
-xbuild/Debug-iphoneos/TouchTest.app/transporter.caf
-xtransporter.caf
-lSLF07#2@20"Copy transporter.caf295223832#295223832#0(0"0(0#0#69"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/transporter.caf4300911832#492"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/transporter.caf /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-
-CGenerateDSYMFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app.dSYM /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest
-s295223836.078072
-e295223836.116340
-r1
-xGenerateDSYMFile
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app.dSYM
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/TouchTest.app.dSYM build/Debug-iphoneos/TouchTest.app/TouchTest295223836#295223836#0(0"0(0#0#98"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest4300911832#413"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app.dSYM0#
-
-CLd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest normal armv7
-s295223835.224763
-e295223836.077796
-r1
-xLd
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest
-xnormal
-xarmv7
-lSLF07#2@103"Link /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest295223835#295223836#0(0"0(0#0#0"4300911832#971"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -filelist /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/Objects-normal/armv7/TouchTest.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework AudioToolbox -framework OpenAL -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/TouchTest0#
-
-CProcessInfoPlistFile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/Info.plist TouchTest-Info.plist
-s295223831.901400
-e295223831.940504
-r1
-xProcessInfoPlistFile
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/Info.plist
-xTouchTest-Info.plist
-lSLF07#2@28"Process TouchTest-Info.plist295223831#295223831#0(0"0(0#0#74"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest-Info.plist4300911832#630"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TouchTest-Info.plist -genpkginfo /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/ResourceRules.plist -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/Info.plist0#
-
-CProcessPCH /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s295223832.852137
-e295223834.119855
-r1
-xProcessPCH
-x/var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch.gch
-xTouchTest_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TouchTest_Prefix.pch295223832#295223834#0(0"0(0#0#74"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest_Prefix.pch4300911832#1810"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest_Prefix.pch -o /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-cyfbufxsnotodiasbkrywmhppfop/TouchTest_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-s295223832.853259
-e295223833.106108
-r1
-xProcessPCH++
-x/var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch.gch
-xTouchTest_Prefix.pch
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TouchTest_Prefix.pch295223832#295223833#0(0"0(0#0#74"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest_Prefix.pch4300911832#1821"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-generated-files.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest-project-headers.hmap -F/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/include -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources/armv7 -I/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/DerivedSources -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/TouchTest_Prefix.pch -o /var/folders/zc/zce26fj8FsSoIuhVcnhCOU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TouchTest_Prefix-hkwvfvraunjctdckeoiepjxoatcm/TouchTest_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision" /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision
-s295223836.116464
-e295223836.118581
-r1
-xProcessProductPackaging
-x/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision
-lSLF07#2@200"ProcessProductPackaging "/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision" build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision295223836#295223836#0(0"0(0#0#113"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision4300911832#461"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/grantbutler/Library/MobileDevice/Provisioning Profiles/B566148D-CB60-486B-93EF-DBDB8530F298.mobileprovision" -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent
-s295223836.122495
-e295223836.141091
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent
-lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent295223836#295223836#0(0"0(0#0#122"/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent4300911832#468"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/TouchTest.build/Debug-iphoneos/TouchTest.build/TouchTest.xcent0#
-
-CTouch /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-s295223836.118659
-e295223836.122396
-r1
-xTouch
-x/Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app
-lSLF07#2@94"Touch /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app295223836#295223836#0(0"0(0#0#0"4300911832#296"    cd /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/grantbutler/SourceCode/Obj-C/iPad/TouchTestOwn/build/Debug-iphoneos/TouchTest.app0#
-

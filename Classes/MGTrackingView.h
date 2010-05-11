@@ -19,7 +19,10 @@
 	CGFloat height;
 	BOOL play;
 	
+	// CFDictionary to map touche events to touch-views.
 	CFMutableDictionaryRef touchMap;
 }
+
+- (IBAction)clearAllTouches:(id)sender;
 
 @end
